@@ -7,7 +7,7 @@
  * Return: The results of multipication between x param and y param
  */
 
-int nul(int x, int y)
+int mul(int x, int y)
 
 {
 
