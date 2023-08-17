@@ -1,17 +1,13 @@
-#include "main.h"
-
-/***
- * _isupper - Check if the letter is upper
- * @c: The number to be checked
- * Return:  1 for upper letter or 0 for anything else
- */
-
-int _isupper(int x)
-
+#include"main.h"
+/**
+*_isupper-uppercaseletters*@c:chartocheck
+**
+Return:0or1
+*/
+int_isupper(intc)
 {
-	if (x >= 65 && x <= 98)
-	{
+	if(c>='A'&&c<='Z')
 	return (1);
-	}
+	else
 	return (0);
 }
